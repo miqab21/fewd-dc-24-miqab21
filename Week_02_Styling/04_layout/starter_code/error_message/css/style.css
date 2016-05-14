@@ -1,0 +1,32 @@
+
+body {
+  font-family: sans-serif;
+  line-height:2;
+  margin: 30px;
+}
+
+#notification {
+  background: yellow;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.message {
+  background-color: yellow;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px 0;
+
+}
+.error {
+	color: green;
+	padding: 10px;
+}
+
+code {
+  background: grey;
+  padding: 1px 4px;
+  border: 1px;
+  border: 4px;
+  margin: 0 1px;
+}

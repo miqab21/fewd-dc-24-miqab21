@@ -1,0 +1,29 @@
+
+.intercontent {
+	background: grey;
+	border: 1px black solid;
+	height: 100px;
+	margin-bottom: 20px;
+}
+aside {
+	width: 30%;
+}
+.aside-right {
+	float: right;
+	
+	
+}
+.aside-left {
+	float: left;
+	
+}
+.main {
+	float: left;
+	width: 34%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+footer {
+	clear: both;
+
+}
