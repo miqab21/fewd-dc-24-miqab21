@@ -7,10 +7,49 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
      visibility: hidden;
-     line-height: 0;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
      height: 0;
+
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background: #f0efef;
+	font-size: 14px;
+  margin: 170px 0px 0px;
+}
+a {
+	text-decoration: none;
+}
+.cotnatiner {
+	width: 700px;
+  margin: 20px auto 20px auto;
+}
+header {
+  height: 160px;
+  background: #033048;
+}
+.logo {
+  font-size: 40px;
+  font-weight: 600px;
+  color: white;
+  display: block;
+}
+nav ul {
+  margin: 0px;
+  padding: 10px 20px;
+}
+li a {
+  color:#f9e42e;
+  text-align: center;
+
+}
+nav li {
+  display: inline;
+  margin-right: 40px;
+
 }
